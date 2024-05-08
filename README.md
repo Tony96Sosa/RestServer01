@@ -1,6 +1,6 @@
 # RestServer01
 
-# Node con TypeScript - TS-Node-dev
+# CRUD - Node - Express - TypeScript
 
 1. Instalar TypeScript y demás dependencias
 
