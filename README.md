@@ -21,3 +21,18 @@ npx tsc --init --outDir dist/ --rootDir src
   "build": "rimraf ./dist && tsc",
   "start": "npm run build && node dist/app.js"
 ```
+
+4. Verificar que este corriendo el docker damon
+5. Levantar el contenedor con la imagen de la base de datos.
+
+```
+docker compose up -d
+```
+
+```
+npx prisma init --datasource-provider postgres
+```
+
+```
+nnpx prisma migrate dev --name init
+```
